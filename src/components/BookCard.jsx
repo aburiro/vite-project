@@ -10,7 +10,7 @@ function BookCard({ book }) {  // Receive the 'book' object as a prop
 
   return (
     // Main card container
-    <Card sx={{ maxWidth: 345 }}>  // Set maximum width of the card
+    <Card sx={{ maxWidth: 345 }}> 
       {/* Make the card clickable */}
       <CardActionArea>  
         {/* Book cover image */}
@@ -25,11 +25,11 @@ function BookCard({ book }) {  // Receive the 'book' object as a prop
         <CardContent>  
           {/* Book title */}
           <Typography gutterBottom variant="h5" component="div"> 
-            {volumeInfo.title}        // Display book title
+            {volumeInfo.title}      
           </Typography>
           {/* Author(s) */}
           <Typography variant="body2" color="text.secondary">
-            Author(s): {volumeInfo.authors?.join(', ')} // Display authors (if available)
+            Author(s): {volumeInfo.authors?.join(', ')} 
           </Typography>
         </CardContent>
       </CardActionArea>
