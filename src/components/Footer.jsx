@@ -18,9 +18,9 @@ function Footer() {
         color="text.secondary"    // Set text color to secondary (usually gray)
         align="center"            // Center align the text
       >
-        {'Copyright © My Online Bookstore '}  // Display the copyright symbol and text
-        {new Date().getFullYear()}  // Dynamically get and display the current year
-        {'.'}                     // Add a period after the year
+        {'Copyright © My Online Bookstore '}  
+        {new Date().getFullYear()}  
+        {'.'}                   
       </Typography>
     </Box>
   );
